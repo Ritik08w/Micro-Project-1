@@ -1,0 +1,32 @@
+[
+    {"id": 1,
+    "name": "Flower Bloom",
+    "price": 10.99, 
+    "image": "images/famous1.jpg"},
+
+    {"id": 2, 
+    "name": "Nightingale",
+    "price": 11.99,
+    "image": "images/famous2.webp"},
+
+    {"id": 3, 
+    "name": "Joy",
+    "price": 11.99,
+    "image": "images/famous3.jpg"},
+
+    {"id": 4, 
+    "name": "Mankind",
+    "price": 11.99,
+    "image": "images/mankind.jpg"},
+
+    {"id": 5, 
+    "name": "My Way",
+    "price": 11.99,
+    "image": "images/my way.jpg"},
+
+    {"id": 6, 
+    "name": "Confidence",
+    "price": 11.99,
+    "image": "images/confidence.jpg"}
+
+]

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Awesome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logoperfume.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub_header">
+      <nav>
+        <a href="index.html"><img id="logo" src="images/logoperfume.png" alt="Company logo" height="200px" width="200px"></a>
+        <div class="nav_links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="mists.html">MISTS</li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+    </section>
+    
+    <!--this is the main section of th page which basically conatins the overvie , history and the future goals of the company-->
+    <section class="aboutus">
+        <div class="row">
+            <div class="about_col">
+                <h1>SIMPLY AWESOME</h1>
+                <p>Welcome to the epitome of Simply Awesome, where our perfume brand redefines the art of scent. Immerse yourself in a symphony of notes meticulously crafted to evoke emotion and elevate your senses. From timeless classics to avant-garde blends, our collection embodies the essence of sophistication. Every bottle encapsulates a journey, a narrative that unfolds with each exquisite spritz. We pride ourselves on offering more than just fragrance; it's an expression of identity, a luxurious statement that lingers in the hearts of those who encounter it. Discover the allure, embrace the extraordinary – because our perfumes transcend the ordinary, creating moments that linger in memory.</p>
+                <P>our perfume brand traces a captivating history that transcends time. From the inception of our fragrant journey, we've been architects of luxury, crafting scents that resonate with sophistication and allure. Each bottle is a chapter, narrating the evolution of our commitment to exquisite craftsmanship and timeless appeal.
+
+                </P>
+                <p>
+                Our future goals envision pioneering new fragrances that redefine luxury and sustainability. We aspire to blend cutting-edge technology with timeless craftsmanship, creating scents that resonate globally. Committed to environmental stewardship, we aim to lead the industry in sustainable practices, ensuring a fragrant future that harmonizes with the planet.
+                </p>
+                <a class="hero_button red_button" href="">Explore Now</a>
+            </div>
+            <div class="about_col">
+                <img src="images/aboutus2.jpg" height="600px" width="400px" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+    
+    
+
+   <!--this is the footer of the page-->
+   <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Discover the allure, embrace the extraordinary – because our perfumes transcend the ordinary, creating moments that linger in memory.</p>
+    <div class="icon">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+
+    </div>
+    <p><i class="fa fa-copyright" aria-hidden="true"></i>All right reserved 2023 </p>
+   </section>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- javascript for toggle menu in responsive website-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
